@@ -96,51 +96,17 @@ manage their notification preferences, including email and SMS subscriptions. By
 crafting these wireframes and prototypes, we ensure that the platform is intuitive, engaging, and
 effective in facilitating community engagement and transparent urban planning
 
-**Figma file**:
-https://www.figma.com/design/GI9QeJyiZtzKYJQwlhEHaE/IBM-Skillbuild-Project-UI?node-id=7-
-6387&t=SXBHLeWb2k31bGIA-1
-
 **User’s Journey**:
 
-Aman Singh, a community member and school teacher, embarks on a journey
-as he stumbles upon the Urban Planning and Citizen Engagement Platform during a local
-community event. Curious about the opportunity to be actively involved in urban development,
-he decides to check out the platform's homepage. Upon arrival, he is welcomed by a
-user-friendly interface that highlights prominent projects and recent discussions. Aman
-efficiently navigates to the Projects section, where he thoroughly explores multiple ongoing
-projects by carefully browsing through detailed project pages. He has a strong fascination for a
-new park development in close proximity to his neighborhood. Having thoroughly analyzed the
-project overview, budget, visual timeline, and interactive map, Aman is ready to share his
-insights. He actively engages in the embedded discussion forum, providing valuable feedback
-through the form, and ensures he stays up-to-date with the project's progress by subscribing for
-updates.
+Shubham Mishra, a community member and school teacher, embarks on a journey as he stumbles upon the Urban Planning and Citizen Engagement Platform during a local community event. Curious about the opportunity to be actively involved in urban development, he decides to check out the platform's homepage. Upon arrival, he is welcomed by a user-friendly interface that highlights prominent projects and recent discussions. Shubham efficiently navigates to the Projects section, where he thoroughly explores multiple ongoing projects by carefully browsing through detailed project pages. He has a strong fascination for a new park development in close proximity to his neighborhood. Having thoroughly analyzed the project overview, budget, visual timeline, and interactive map, Shubham is ready to share his insights. He actively engages in the embedded discussion forum, providing valuable feedback through the form, and ensures he stays up-to-date with the project's progress by subscribing for updates.
 
-Meanwhile, Rishi Rishav, an urban planner, accesses the platform's dashboard to oversee and
-track the progress of the park development project. Rishi efficiently updates the project timeline
-and uploads new documents to keep everyone informed of the latest design changes. He
-diligently keeps an eye on the community feedback section, where he comes across Aman's
-astute comments along with feedback from other residents. Rishi carefully examines the
-feedback using advanced analytics tools, making necessary adjustments to the project plans in
-order to better meet the requirements of the community. This iterative feedback loop enables
-him to maintain transparency and ensure that the community's voice is heard.
+Meanwhile, Vedant Kashyap, an urban planner, accesses the platform's dashboard to oversee and track the progress of the park development project. Vedant efficiently updates the project timeline and uploads new documents to keep everyone informed of the latest design changes. He diligently keeps an eye on the community feedback section, where he comes across Shubham's astute comments along with feedback from other residents. Vedant carefully examines the feedback using advanced analytics tools, making necessary adjustments to the project plans in order to better meet the requirements of the community. This iterative feedback loop enables him to maintain transparency and ensure that the community's voice is heard.
 
-Prerna Kujur, a city council member and local government official, uses the platform to assess
-the advancement of the park development project. She goes to the comprehensive reports
-section, where she can view detailed analytics on community engagement and feedback.
-Prerna is delighted by the active involvement and valuable contributions from community
-members such as Aman. During a council meeting, she uses her expertise to advocate for
-project adjustments that align with the community's preferences. She ensures that feedback is
-incorporated into the final decision-making process, fostering a sense of shared ownership and
-trust.
+Pranav Jha, a data analyst, is also actively involved in the platform, providing valuable insights through data-driven analysis. Pranav has access to a range of metrics and analytics tools that help him assess trends in community feedback, project engagement, and the effectiveness of various aspects of the park development. He dives deep into the data from the platform's dashboard, uncovering key insights such as the most frequently raised concerns from residents, sentiment analysis of feedback, and potential areas for improvement in the project. Pranav's detailed reports help both Vedant and Aditya gain a clearer understanding of the community's preferences and priorities. His work enables the team to make informed, evidence-based decisions that align with the community's needs.
 
-Throughout this journey, the platform enables smooth interaction and collaboration among
-community members, urban planners, and local government officials. It enables Aman to
-actively participate and influence urban development, allows Rishi to effectively manage
-projects and respond to community feedback, and provides Prerna with the necessary insights
-to make informed decisions that align with the community's interests. Working collaboratively,
-they help establish a transparent, inclusive, and efficient urban planning process that supports
-the Sustainable Development Goals (SDGs), with a particular focus on advancing sustainable
-cities and communities.
+Aditya Kumar Singh, a city council member and local government official, uses the platform to assess the advancement of the park development project. He goes to the comprehensive reports section, where he can view detailed analytics on community engagement and feedback. Aditya is delighted by the active involvement and valuable contributions from community members such as Shubham. During a council meeting, he uses Pranav’s data insights to advocate for project adjustments that align with the community's preferences. The data analytics reports help him highlight areas where adjustments can be made to improve the park's design based on the community's collective input. Aditya ensures that feedback is incorporated into the final decision-making process, fostering a sense of shared ownership and trust.
+
+Throughout this journey, the platform enables smooth interaction and collaboration among community members, urban planners, data analysts, and local government officials. It enables Shubham to actively participate and influence urban development, allows Vedant to effectively manage projects and respond to community feedback, provides Pranav with the tools to analyze and present data that informs key decisions, and equips Aditya with the necessary insights to make informed, transparent, and community-focused decisions. Working collaboratively, they help establish a transparent, inclusive, and efficient urban planning process that supports the Sustainable Development Goals (SDGs), with a particular focus on advancing sustainable cities and communities.
 
 **Methodology**:
 
