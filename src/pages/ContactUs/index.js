@@ -1,4 +1,4 @@
-import { Heading } from "../../components";
+import { Heading } from "../../components/Heading";
 import { Helmet } from "react-helmet";
 import Header from "../../components/Header";
 import React from "react";
