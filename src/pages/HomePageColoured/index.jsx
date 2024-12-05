@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 
-import { Button, Text, Heading } from "../../components";
+import { Button, Text, Heading } from "../../components/index.jsx";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import HighlightedProjects from "../../components/HighlightedProjects";

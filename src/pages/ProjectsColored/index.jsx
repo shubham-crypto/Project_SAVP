@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import RiversideParkDevelopment from "../../Components/RiversideParkDevelopment";
+import RiversideParkDevelopment from "../../components/RiversideParkDevelopment";
 import ProjectscoloredRowprojectsOne from "./ProjectscoloredRowprojectsOne";
 import React, { Suspense } from "react";
 

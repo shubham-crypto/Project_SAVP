@@ -1,4 +1,4 @@
-import { Button, Text, Heading } from "../../components";
+import { Button, Text, Heading } from "../../components/index.jsx";
 import React from "react";
 
 export default function AboutuscoloredColumnThree() {

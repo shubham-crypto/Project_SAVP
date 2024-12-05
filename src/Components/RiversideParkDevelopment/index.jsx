@@ -1,4 +1,4 @@
-import { Button, Text, Heading, Img } from "./../img/index.jsx";
+import { Button, Text, Heading, Img } from "./../index.jsx";
 
 import React from "react";
 

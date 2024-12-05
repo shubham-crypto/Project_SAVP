@@ -1,7 +1,7 @@
 import { Text, Heading } from "../../components";
 
 import React from "react";
-import BasicMap from "../../Components/Leaflet/basic";
+import BasicMap from "../../components/Leaflet/basic";
 
 export default function GisintegrationwindowcoloredRowmapview() {
   return (

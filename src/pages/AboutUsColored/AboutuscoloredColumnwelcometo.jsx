@@ -1,4 +1,4 @@
-import { Button, Text, Heading } from "../../components";
+import { Button, Text, Heading } from "../../components/index.jsx";
 import UserHistorySection from "../../components/UserHistorySection";
 import UserProfile2 from "../../components/UserProfile2";
 import React, { Suspense } from "react";

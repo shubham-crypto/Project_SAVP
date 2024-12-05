@@ -1,5 +1,5 @@
-import { Button, Text, Heading } from "../../components";
-import RiversideParkDevelopment from "../../Components/RiversideParkDevelopment";
+import { Button, Text, Heading } from "../../components/index.jsx";
+import RiversideParkDevelopment from "../../components/RiversideParkDevelopment";
 import React,{Suspense} from "react";
 
 const data = [
