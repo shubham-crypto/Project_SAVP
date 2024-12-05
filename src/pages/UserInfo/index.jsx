@@ -25,13 +25,6 @@ const educationOptions = [
 export default function UserProfilePage() {
   return (
     <>
-      {/* <Helmet>
-        <title>User Profile</title>
-        <meta
-          name="description"
-          content="User profile page for community members of an urban city"
-        />
-      </Helmet> */}
       <Header />
       <div className="w-full bg-gray-100 py-10">
         <div className="max-w-5xl mx-auto bg-white shadow-md rounded-lg p-8">

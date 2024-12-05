@@ -13,13 +13,6 @@ import React from "react";
 export default function AboutUsColoredPage() {
   return (
     <>
-      {/* <Helmet>
-        <title>Rishi Rishav&#39;s Application2</title>
-        <meta
-          name="description"
-          content="web site created using create-react-app"
-        />
-      </Helmet> */}
       <div className="w-full bg-gray-50_01">
         <Header />
         <div>

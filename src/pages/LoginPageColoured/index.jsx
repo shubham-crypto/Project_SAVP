@@ -7,13 +7,6 @@ import { Link } from "react-router-dom";
 export default function LoginPageColouredPage() {
   return (
     <>
-      {/* <Helmet>
-        <title>Rishi Rishav's Application2</title>
-        <meta
-          name="description"
-          content="web site created using create-react-app"
-        />
-      </Helmet> */}
       <div className="flex w-full h-screen items-start justify-center gap-2.5 bg-white-a700 px-14 py-16 md:flex-col md:p-5">
         <div className="flex">
           <Img

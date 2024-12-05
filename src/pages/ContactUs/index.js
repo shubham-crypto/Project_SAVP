@@ -6,13 +6,6 @@ import React from "react";
 export default function ContactUsPage() {
   return (
     <>
-      {/* <Helmet>
-        <title>Rishi Rishav's Application2</title>
-        <meta
-          name="description"
-          content="web site created using create-react-app"
-        />
-      </Helmet> */}
       <div className="w-full bg-white-a700 h-screen overflow-hidden">
         <Header />
         <div className="flex flex-col items-center justify-center bg-blue_gray-800_cc py-36 md:py-5">

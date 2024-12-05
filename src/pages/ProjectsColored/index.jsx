@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import RiversideParkDevelopment from "../../components/RiversideParkDevelopment";
+import RiversideParkDevelopment from "../../Components/RiversideParkDevelopment";
 import ProjectscoloredRowprojectsOne from "./ProjectscoloredRowprojectsOne";
 import React, { Suspense } from "react";
 
@@ -67,10 +67,6 @@ const data = [
 export default function ProjectsColoredPage() {
   return (
     <>
-      {/* <Helmet>
-        <title>Rishi Rishav&#39;s Application2</title>
-        <meta name="description" content="web site created using create-react-app" />
-      </Helmet> */}
       <div className="w-full bg-white-a700">
         <Header />
         <div className="flex flex-col items-center gap-[136px] md:gap-[102px] sm:gap-[68px]">

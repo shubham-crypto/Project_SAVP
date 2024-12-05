@@ -40,10 +40,6 @@ const data = [
 export default function HomePageColouredPage() {
     return (
         <>
-            {/* <Helmet>
-                <title>Rishi Rishav&#39;s Application2</title>
-                <meta name="description" content="Web site created using create-react-app" />
-            </Helmet> */}
             <div className="w-full bg-white-a700">
                 <Header />
                 <div className="flex flex-col gap-44 md:gap-[132px] sm:gap-[88px]">

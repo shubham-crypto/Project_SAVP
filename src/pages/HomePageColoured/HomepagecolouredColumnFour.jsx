@@ -1,5 +1,5 @@
 import { Button, Text, Heading } from "../../components";
-import RiversideParkDevelopment from "../../components/RiversideParkDevelopment";
+import RiversideParkDevelopment from "../../Components/RiversideParkDevelopment";
 import React,{Suspense} from "react";
 
 const data = [
