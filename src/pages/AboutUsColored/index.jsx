@@ -15,7 +15,7 @@ export default function AboutUsColoredPage() {
     <>
       <div className="w-full bg-gray-50_01">
         <Header />
-        <div>
+        <div className="mt-24">
           <AboutuscoloredRowaboutusone />
           <AboutuscoloredColumnwelcometo />
           <AboutuscoloredRowtakeonnew />

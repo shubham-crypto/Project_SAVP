@@ -67,12 +67,12 @@ const data = [
 export default function ProjectsColoredPage() {
   return (
     <>
-      <div className="w-full bg-white-a700">
+      <div className="w-full bg-white-a700 mt-24">
         <Header />
         <div className="flex flex-col items-center gap-[136px] md:gap-[102px] sm:gap-[68px]">
           <ProjectscoloredRowprojectsOne />
-          <div className="container-xs md:p-5">
-            <div className="grid grid-cols-2 justify-center gap-6 md:grid-cols-1">
+          <div className="container-xs p-5 md:p-0">
+            <div className="grid md:grid-cols-2 justify-center gap-6 grid-cols-1">
               <Suspense fallback={<div>Loading feed...</div>}>
                 {data.map((d, index) => (
                   <RiversideParkDevelopment {...d} key={"projectscolored" + index} />

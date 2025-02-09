@@ -58,13 +58,13 @@ export default function AboutuscoloredColumnTwo() {
         </div>
         <div>
           <div className="flex flex-col gap-4">
-            <div className="flex gap-4 md:flex-col">
+            <div className="flex gap-4 flex-col md:flex-row">
               <div className="w-full bg-gray-300_01">
                 <img src="/images/Cimages/pic.jpg" alt="pic" className="" />
-                <div className=" flex flex-col items-start justify-center gap-[22px] bg-gray-900_02 py-8 pl-[88px] pr-14 md:px-5 sm:p-5">
+                <div className="flex flex-col items-center justify-center gap-[22px] bg-gray-900_02 py-8 px-5">
                   <Heading
                     as="h4"
-                    className="ml-11 !text-[24px] capitalize md:ml-0 md:!text-[22px]"
+                    className="!text-[24px] capitalize md:!text-[22px]"
                   >
                     Jono Sape
                   </Heading>
@@ -73,7 +73,7 @@ export default function AboutuscoloredColumnTwo() {
                     setOptions={setChipOptions}
                     values={selectedChipOptions}
                     setValues={setSelectedChipOptions}
-                    className="flex w-[88%] flex-wrap gap-4"
+                    className="flex w-[88%] flex-wrap gap-4 justify-center"
                   >
                     {(option) => (
                       <React.Fragment key={option.index}>
@@ -99,10 +99,10 @@ export default function AboutuscoloredColumnTwo() {
               </div>
               <div className="w-full bg-gray-300_01">
                 <img src="/images/Cimages/pic.jpg" alt="pic" className="" />
-                <div className="flex flex-col items-start justify-center gap-[22px] bg-gray-900_02 py-8 pl-[88px] pr-14 md:px-5 sm:p-5">
+                <div className="flex flex-col items-center justify-center gap-[22px] bg-gray-900_02 py-8 px-5">
                   <Heading
                     as="h5"
-                    className="ml-12 !text-[24px] capitalize md:ml-0 md:!text-[22px]"
+                    className="!text-[24px] capitalize md:!text-[22px]"
                   >
                     Joni Zhak
                   </Heading>
@@ -111,7 +111,7 @@ export default function AboutuscoloredColumnTwo() {
                     setOptions={setChipOptions1}
                     values={selectedChipOptions1}
                     setValues={setSelectedChipOptions1}
-                    className="flex w-[88%] flex-wrap gap-4"
+                    className="flex w-[88%] flex-wrap gap-4 justify-center"
                   >
                     {(option) => (
                       <React.Fragment key={option.index}>
@@ -137,10 +137,10 @@ export default function AboutuscoloredColumnTwo() {
               </div>
               <div className="w-full bg-gray-300_01">
                 <img src="/images/Cimages/pic.jpg" alt="pic" className="" />
-                <div className="flex flex-col items-start justify-center gap-[22px] bg-gray-900_02 py-8 pl-[88px] pr-14 md:px-5 sm:p-5">
+                <div className="flex flex-col items-center justify-center gap-[22px] bg-gray-900_02 py-8 px-5">
                   <Heading
                     as="h6"
-                    className="ml-7 !text-[24px] capitalize md:ml-0 md:!text-[22px]"
+                    className="!text-[24px] capitalize md:!text-[22px]"
                   >
                     Bancilot Jack
                   </Heading>
@@ -149,7 +149,7 @@ export default function AboutuscoloredColumnTwo() {
                     setOptions={setChipOptions2}
                     values={selectedChipOptions2}
                     setValues={setSelectedChipOptions2}
-                    className="flex w-[88%] flex-wrap gap-4"
+                    className="flex w-[88%] flex-wrap gap-4 justify-center"
                   >
                     {(option) => (
                       <React.Fragment key={option.index}>
@@ -174,56 +174,22 @@ export default function AboutuscoloredColumnTwo() {
                 </div>
               </div>
             </div>
-            <div className="flex gap-4 md:flex-col">
+            <div className="flex gap-4 flex-col md:flex-row">
               <div className="w-full bg-gray-300_01">
                 <img src="/images/Cimages/pic.jpg" alt="pic" className="" />
-                <div className="flex flex-col items-start justify-center gap-6 bg-gray-900_02 py-8 pl-[88px] pr-14 md:px-5 sm:p-5">
+                <div className="flex flex-col items-center justify-center gap-6 bg-gray-900_02 py-8 px-5">
                   <Heading
                     as="h4"
-                    className="ml-[38px] !text-[24px] capitalize md:ml-0 md:!text-[22px]"
+                    className="!text-[24px] capitalize md:!text-[22px]"
                   >
                     Aurora Lee
                   </Heading>
-                  {/* <div className="flex w-[88%] justify-center gap-4 md:w-full">
-                    <div className="flex w-[40px] flex-col items-center justify-center rounded-[20px] border border-solid border-white-a700">
-                      <Heading
-                        size="headingxs"
-                        as="h6"
-                        className="mb-3 !text-[16px] capitalize"
-                      >
-                        fb
-                      </Heading>
-                    </div>
-                    <div className="flex w-[40px] flex-col items-center justify-center rounded-[20px] border border-solid border-white-a700">
-                      <Heading
-                        size="headingxs"
-                        as="h6"
-                        className="mb-3 !text-[16px] capitalize"
-                      >
-                        ig
-                      </Heading>
-                    </div>
-                    <Heading
-                      size="headingxs"
-                      as="h6"
-                      className="flex h-[40px] w-[40px] items-center justify-center rounded-[20px] border border-solid border-white-a700 text-center !text-[16px] capitalize"
-                    >
-                      tw
-                    </Heading>
-                    <div className="flex w-[40px] flex-col items-center justify-center rounded-[20px] border border-solid border-white-a700">
-                      <Heading
-                        size="headingxs"
-                        as="h6"
-                        className="mb-3 !text-[16px] capitalize"
-                      >
-                        be
-                      </Heading> */}
                   <ChipView
                     options={chipOptions2}
                     setOptions={setChipOptions2}
                     values={selectedChipOptions2}
                     setValues={setSelectedChipOptions2}
-                    className="flex w-[88%] flex-wrap gap-4"
+                    className="flex w-[88%] flex-wrap gap-4 justify-center"
                   >
                     {(option) => (
                       <React.Fragment key={option.index}>
@@ -245,16 +211,14 @@ export default function AboutuscoloredColumnTwo() {
                       </React.Fragment>
                     )}
                   </ChipView>
-                  {/* </div> */}
-                  {/* </div> */}
                 </div>
               </div>
               <div className="w-full bg-gray-300_01">
                 <img src="/images/Cimages/pic.jpg" alt="pic" className="" />
-                <div className="flex flex-col items-start justify-center gap-6 bg-gray-900_02 py-8 pl-[88px] pr-14 md:px-5 sm:p-5">
+                <div className="flex flex-col items-center justify-center gap-6 bg-gray-900_02 py-8 px-5">
                   <Heading
                     as="h4"
-                    className="ml-7 !text-[24px] capitalize md:ml-0 md:!text-[22px]"
+                    className="!text-[24px] capitalize md:!text-[22px]"
                   >
                     Brown Baker
                   </Heading>
@@ -263,7 +227,7 @@ export default function AboutuscoloredColumnTwo() {
                     setOptions={setChipOptions3}
                     values={selectedChipOptions3}
                     setValues={setSelectedChipOptions3}
-                    className="flex w-[88%] flex-wrap gap-4"
+                    className="flex w-[88%] flex-wrap gap-4 justify-center"
                   >
                     {(option) => (
                       <React.Fragment key={option.index}>
@@ -289,10 +253,10 @@ export default function AboutuscoloredColumnTwo() {
               </div>
               <div className="w-full bg-gray-300_01">
                 <img src="/images/Cimages/pic.jpg" alt="pic" className="" />
-                <div className="flex flex-col items-start justify-center gap-6 bg-gray-900_02 py-8 pl-[88px] pr-14 md:px-5 sm:p-5">
+                <div className="flex flex-col items-center justify-center gap-6 bg-gray-900_02 py-8 px-5">
                   <Heading
                     as="h4"
-                    className="ml-8 !text-[24px] capitalize md:ml-0 md:!text-[22px]"
+                    className="!text-[24px] capitalize md:!text-[22px]"
                   >
                     Michael Rick
                   </Heading>
@@ -301,7 +265,7 @@ export default function AboutuscoloredColumnTwo() {
                     setOptions={setChipOptions4}
                     values={selectedChipOptions4}
                     setValues={setSelectedChipOptions4}
-                    className="flex w-[88%] flex-wrap gap-4"
+                    className="flex w-[88%] flex-wrap gap-4 justify-center"
                   >
                     {(option) => (
                       <React.Fragment key={option.index}>

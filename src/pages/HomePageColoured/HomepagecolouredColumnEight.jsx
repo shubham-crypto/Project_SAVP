@@ -55,12 +55,12 @@ const data = [
 export default function HomepagecolouredColumnEight() {
     return (
         <div className="flex flex-col items-center">
-            <div className="container-xs flex flex-col gap-20 md:gap-[60px] md:p-5 sm:gap-10">
-                <div className="mx-[264px] flex flex-col items-center gap-6 md:mx-0">
+            <div className="container-xs flex flex-col gap-20 ">
+                <div className="md:mx-[264px] flex flex-col items-center gap-6 mx-0">
                     <Heading
                         size="heading2xl"
                         as="h2"
-                        className="!text-[48px] !font-bold capitalize !text-blue_gray-900_01 md:!text-[44px] sm:!text-[38px]"
+                        className="md:!text-[48px] !font-bold capitalize !text-blue_gray-900_01 text-[44px] "
                     >
 
                         Community Feedback
@@ -68,11 +68,11 @@ export default function HomepagecolouredColumnEight() {
                     </Heading>
 
                     <Text as="p" className="w-full leading-[26px] !text-gray-600_01">
-                    Engage with the community and amplify your voice in local projects. Join  Community Feedback section to <br /><span className="ml-[200px]">share insights and opinions on local initiatives</span>
+                    Engage with the community and amplify your voice in local projects. Join  Community Feedback section to <br /><span className="md:ml-[200px]">share insights and opinions on local initiatives</span>
                     </Text>
 
                 </div>
-                <div className="flex gap-4 md:flex-col">
+                <div className="flex gap-4 flex-col md:flex-row">
                     <Suspense fallback={<div>Loading feed...</div>}>
                         {data.map((d, index) => (
                             <CaregiverProfile {...d} key={"listcaregiversa" + index} />

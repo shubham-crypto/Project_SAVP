@@ -2,13 +2,14 @@ import { Heading } from "../../components/Heading";
 import { Helmet } from "react-helmet";
 import Header from "../../components/Header";
 import React from "react";
+import Footer from "../../components/Footer";
 
 export default function ContactUsPage() {
   return (
     <>
-      <div className="w-full bg-white-a700 h-screen overflow-hidden">
+      <div className="w-full bg-white-a700 h-screen ">
         <Header />
-        <div className="flex flex-col items-center justify-center bg-blue_gray-800_cc py-36 md:py-5">
+        <div className="flex flex-col items-center justify-center mt-24 bg-blue_gray-800_cc md:py-36 :py-5">
           <div className="container-xs mt-[-80px] flex flex-col items-start gap-6 md:p-5">
             <Heading size="heading3x1" as="h1" className="capitalize">
               Get In Touch
@@ -51,6 +52,7 @@ export default function ContactUsPage() {
             </div>
           </div>
         </div>
+        <Footer/>
       </div>
     </>
   );

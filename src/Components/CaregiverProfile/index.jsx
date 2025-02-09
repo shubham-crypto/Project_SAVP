@@ -13,11 +13,11 @@ export default function CaregiverProfile({
   return (
     <div
       {...props}
-      className={`${props.className} flex flex-col items-center w-[32%] md:w-full gap-6 bg-white-a700`}
+      className={`${props.className} flex flex-col items-center md:w-[32%] w-full gap-6 bg-white-a700`}
     >
       {/* <div className="h-[400px] w-[400px] bg-gray-300" /> */}
       <Img className="h-[400px] w-[400px]" src={src} alt="Community Feedback" />
-      <div className="mx-3.5 mb-[26px] flex flex-col items-start gap-[18px] self-stretch">
+      <div className="mx-auto mb-[26px] flex flex-col items-start gap-[18px] max-w-[400px] self-stretch ">
         <Heading
           as="h4"
           className="w-full !text-[24px] capitalize leading-[38px] !text-blue_gray-900_01"

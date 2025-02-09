@@ -3,13 +3,13 @@ import React from "react";
 
 export default function HomepagecolouredRowhighlighted() {
   return (
-    <div className="mt-[62px] flex items-center justify-between gap-5 md:flex-col">
-      <div className="flex w-[48%] justify-center bg-gray-300  md:w-full md:p-5">
+    <div className="mt-[62px] flex items-center justify-between gap-5 flex-col md:flex-row">
+      <div className="flex md:w-[48%] justify-center bg-gray-300  w-full p-5 md:p-0">
         {/* <Button color="white_A700" size="1g" shape="circle" className="w-[56px] !rounded-[28px]"> */}
           <Img src="images/Cimages/Home-RegionalProjects.jpg" alt="Regional Projects" className="h-full w-full"/>
         {/* </Button> */}
       </div>
-      <div className="flex w-[46%] flex-col items-start md:w-full md:p-5">
+      <div className="flex md:w-[46%] flex-col items-start w-full p-5 md:p-0">
         <Heading
           size="heading2xl"
           as="h2"

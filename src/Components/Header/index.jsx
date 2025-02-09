@@ -1,99 +1,173 @@
 import { Img, Text, Heading } from '../../components';
-import React from "react";
-import { useLocation ,Link} from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { useLocation, Link, useNavigate } from 'react-router-dom';
 
 export default function Header({ ...props }) {
     const location = useLocation();
     const currentPath = location.pathname;
+    const [isOpen, setIsOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+    const navigate=useNavigate()
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <header
-            {...props}
-            className={`${props.className} border-deep_purple-a200 border border-dashed rounded-[5px]`}
-        >
-            <div
-                className="flex w-full items-end justify-between gap-5 rounded-[5px] bg-white-a700 px-[86px] py-4 md:flex-col md:px-5"
-            >
-            <Link to="/homepagecoloured">
-                <Img
-                    src="images/img_header_logo.png"
-                    alt="Headerlogo"
-                    className="h-[52px] w-[54px] self-center object-contain"
-                />
+            className='fixed top-0 left-0 text-white z-[9999] w-full'>
+            <div className={`flex flex-row  items-center bg-gray-200  ${
+                isScrolled ? 'py-2 px-4 md:px-16 space-x-16 justify-center mt-2 w-fit mx-auto bg-rblack-900 shadow-lg rounded-b-lg rounded-l-full rounded-r-full '
+                : 'py-4 h-24 px-8 md:px-32 justify-between w-full '
+                    } transition-all duration-300 ` }>
+                <Link to="/Home">
+                    <Img
+                        src="images/img_header_logo.png"
+                        alt="Headerlogo"
+                        className="h-12 w-12"
+                    />
                 </Link>
-                <ul className="!mb-3.5 flex flex-wrap gap-12">
-                    <li>
-                        <a href="/homepagecoloured">
-                            <Heading
-                                size="headingxs"
-                                as="h6"
-                                className={`!text-[16px] ${currentPath === '/homepagecoloured' ? '!font-bold' : '!font-normal'} !text-blue_gray-900_01`}
+                <button
+                    className="block md:hidden"
+                    onClick={() => setIsOpen(!isOpen)}
+                    >
+                    <svg
+                        width="24"
+                        height="24"
+                        fill="none"
+                        stroke="black"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-6 h-6"
+                    >
+                        <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M4 6h16M4 12h16M4 18h16"
+                        />
+                    </svg>
+                    </button>
+                    <div className="hidden md:flex">
+                        <div className="pt-1">
+                            <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 20 20"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M2 18V2H18"
+                                    stroke="gray"
+                                    strokeWidth="3"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                />
+                            </svg>
+                        </div>
+                        <div className="flex flex-row space-x-8 py-4 text-white">
+                            <div
+                                className="font-semibold cursor-pointer group relative"
+                                onClick={() => navigate('/Home')}
                             >
                                 Home
-                            </Heading>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/projectscolored" className="cursor-pointer">
-                            <Text
-                                as="p"
-                                className={`!text-blue_gray-900_01 ${currentPath === '/projectscolored' ? '!font-bold' : '!font-normal'}`}
+                                <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-gray-200 transition-all duration-300 ease-in-out group-hover:w-full group-hover:left-0"></span>
+                            </div>
+                            <div
+                                className="cursor-pointer group relative"
+                                onClick={() => navigate('/projects')}
                             >
                                 Projects
-                            </Text>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/gisintegrationwindowcolored" className="cursor-pointer">
-                            <Text as="p" className={`!text-blue_gray-900_01 ${currentPath === '/gisintegrationwindowcolored' ? '!font-bold' : '!font-normal'}`}>
+                                <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-gray-200 transition-all duration-300 ease-in-out group-hover:w-full group-hover:left-0"></span>
+                            </div>
+                            <div
+                                className="cursor-pointer group relative"
+                                onClick={() => navigate('/gis-integration')}
+                            >
                                 Maps
-                            </Text>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/aboutuscolored" className="cursor-pointer">
-                            <Text as="p" className={`!text-blue_gray-900_01 ${currentPath === '/aboutuscolored' ? '!font-bold' : '!font-normal'}`}>
-                                About us
-                            </Text>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/contactus" className="cursor-pointer">
-                            <Text
-                                as="p"
-                                className={`!text-blue_gray-900_01 ${currentPath === '/contactus' ? '!font-bold' : '!font-normal'}`}
+                                <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-gray-200 transition-all duration-300 ease-in-out group-hover:w-full group-hover:left-0"></span>
+                            </div>
+                            <div
+                                className="cursor-pointer group relative"
+                                onClick={() => navigate('/contact')}
                             >
                                 Contact Us
-                            </Text>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/survey" className="cursor-pointer">
-                            <Text
-                                as="p"
-                                className={`!text-blue_gray-900_01 ${currentPath === '/survey' ? '!font-bold' : '!font-normal'}`}
+                                <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-gray-200 transition-all duration-300 ease-in-out group-hover:w-full group-hover:left-0"></span>
+                            </div>
+                            <div
+                                className="cursor-pointer group relative"
+                                onClick={() => navigate('/about')}
                             >
-                                Survey
-                            </Text>
-                        </a>
-                    </li>
-                    {/* <li>
-                        <a href="/contactus" className="cursor-pointer">
-                            <Text as="p" className="! text-blue_gray-900_01 hover:font-bold">
-                                Contact
-                            </Text>
-                        </a>
-                    </li> */}
-                </ul>
-                <div className="w-[5%] md:w-full">
-                  <a href="/userprofile">
-                  <Img
-                        src="images/img_avatar.png"
-                        alt="Avatar"
-                        className="h-[60px] w-full rounded-[30px] object-cover md:h-auto"
-                    /></a>
-                    
+                                About us
+                                <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-gray-200 transition-all duration-300 ease-in-out group-hover:w-full group-hover:left-0"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                <div className="w-16 h-16">
+                    <Link to="/profile">
+                        <Img
+                            src="images/img_avatar.png"
+                            alt="Avatar"
+                            className="h-full w-full object-cover "
+                        />
+                    </Link>
                 </div>
             </div>
+            {isOpen && (
+                <div className="absolute top-32 left-0 w-full bg-gray-200 border-t-2 shadow-lg md:hidden">
+                    <div className="flex flex-col space-y-4 p-4">
+                        <div
+                            className="font-semibold cursor-pointer"
+                            onClick={() => navigate('/Home')}
+                        >
+                            Home
+                        </div>
+                        <div
+                            className="cursor-pointer"
+                            onClick={() => navigate('/projects')}
+                        >
+                            Projects
+                        </div>
+                        <div
+                            className="cursor-pointer"
+                            onClick={() => navigate('/gis-integration')}
+                        >
+                            Maps
+                        </div>
+                        <div
+                            className="cursor-pointer"
+                            onClick={() => navigate('/contact')}
+                        >
+                            Contact Us
+                        </div>
+                        <div
+                            className="cursor-pointer"
+                            onClick={() => navigate('/about')}
+                        >
+                            About us
+                        </div>
+                        <div
+                            className="cursor-pointer"
+                            onClick={() => navigate('/survey')}
+                        >
+                            Survey
+                        </div>
+                    </div>
+                </div>
+            )}
+
         </header>
     );
 }

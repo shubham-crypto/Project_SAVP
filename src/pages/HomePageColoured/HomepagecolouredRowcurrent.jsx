@@ -34,14 +34,14 @@ const data = [
 
 export default function HomepagecolouredRowcurrent() {
   return (
-    <div className="mt-40 flex justify-end md:flex-col">
-      <div className="flex w-[50%] flex-col items-start gap-14 md:w-full md:p-5 sm:gap-7">
+    <div className="mt-40 flex justify-end flex-col md:flex-row">
+      <div className="flex md:w-[50%] flex-col items-start gap-14 w-full p-5  md:p-0">
         <div className="flex flex-col gap-16 self-stretch sm:gap-8">
           <div className="flex flex-col items-start gap-6">
             <Heading
               size="heading2xl"
               as="h3"
-              className="w-[84%] !text-[48px] !font-bold capitalize leading-[64px] !text-blue_gray-900_01 md:w-full md: !text-[44px] sm:!text-[38px]"
+              className="md:w-[84%]  !font-bold capitalize leading-[64px] !text-blue_gray-900_01 w-full !text-[44px] "
             >
               Current Projects and Information
             </Heading>
@@ -53,7 +53,7 @@ export default function HomepagecolouredRowcurrent() {
             </Text>
           </div>
           <div>
-            <div className="mr-[120px] grid grid-cols-2 gap-4 gap-y-4 md:mr-0 md:grid-cols-1">
+            <div className="md:mr-[120px] grid md:grid-cols-2 gap-4 gap-y-4 mr-0 grid-cols-1">
               <Suspense fallback={<div>Loading feed...</div>}>
                 {data.map((d, index) => (
                   <UserProfile {...d} key={"gridloremipsum" + index} className="shadow-xs hover:shadow-xs" />
@@ -68,7 +68,7 @@ export default function HomepagecolouredRowcurrent() {
           </Link>
         </Button>
       </div>
-      <div className="h-[1044px] w-[42%] bg-gray-300 md:p-5 flex flex-col"> 
+      <div className="h-full md:h-[1044px] w-full md:w-[42%] bg-gray-300 p-5  md:p-0 flex flex-col"> 
             <Img src="images/Cimages/Home-CurrentProjects1.jpg" alt="CurrentProjectImage" className="h-[50%]"/>
             <Img src="images/Cimages/Home-CurrentProjects2.jpg" alt="CurrentProjectImage" className="h-[50%]"/>
       </div>

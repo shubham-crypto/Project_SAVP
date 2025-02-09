@@ -3,7 +3,7 @@ import React from "react";
 
 export default function MoreinfopageforaprojectprevRowgetinvolvedi() {
   return (
-    <div className="">
+    <div className="mt-24">
       <div className="flex flex-col items-start justify-center bg-gradient1 py-[42px] pl-16 pr-14 md:p-5">
         <Heading
           size="headings"

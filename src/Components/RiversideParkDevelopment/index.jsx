@@ -12,7 +12,7 @@ export default function RiversideParkDevelopment({
   return (
     <div
       {...props}
-      className={`${props.className} h-[590px] w-full md:h-auto relative`}
+      className={`${props.className} md:h-[590px] w-full h-auto relative`}
     >
       <Img
         src={userImage}
@@ -20,14 +20,14 @@ export default function RiversideParkDevelopment({
         className="mx-auto h-[590px] w-full flex-1 object-cover"
       />
       <div
-        className="absolute bottom-0 left-0 right-0 top-0 m-auto h-max flex-1 bg-blue_gray-800_b2
-      bg-blend-lighten px-10 py-[115px] md:py-5 sm:p-5"
+        className="absolute bottom-0 left-0 right-0 top-0 m-auto  flex-1 bg-blue_gray-800_b2
+      bg-blend-lighten px-10 md:py-[115px] py-5 "
       >
-        <div className="mt-16 flex flex-col gap-4 sm:gap-4">
+        <div className="mt-16 flex flex-col gap-4 sm:gap-4 ">
           <Heading
             size="heading2x1"
             as="h1"
-            className="w-[94%] !text-[48px] !font-bold capitalize leading-[64px] sm:w-full sm:!text-[40px]"
+            className="md:w-[94%] !text-[48px] !font-bold capitalize leading-[64px] w-full "
           >
             {title}
           </Heading>

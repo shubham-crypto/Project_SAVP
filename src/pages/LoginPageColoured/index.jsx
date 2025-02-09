@@ -7,22 +7,24 @@ import { Link } from "react-router-dom";
 export default function LoginPageColouredPage() {
   return (
     <>
-      <div className="flex w-full h-screen items-start justify-center gap-2.5 bg-white-a700 px-14 py-16 md:flex-col md:p-5">
-        <div className="flex">
+      <div className="flex flex-col md:flex-row p-5 w-full h-screen md:items-start md:justify-center md:gap-2.5 bg-white-a700 md:px-14 md:py-16">
+        <div className="flex  h-16 w-16">
           <Img
             src="images/img_logo_civique.png"
             alt="Logocivique"
-            className="h-[62px] w-full object-cover md:h-auto"
+            className="w-full object-cover h-auto"
           />
         </div>
-        <div className="mb-[226px] flex flex-1 items-center px-2.5 ml-[20px] md:flex-col md:self-stretch">
-          <Img
-            src="images/img_image.svg"
-            alt="Image"
-            className="mb-5 h-[550px] w- [60%] self-end object-contain md:w-full md:self-auto"
-          />
+        <div className=" flex flex-col md:flex-row md:flex-1 items-center px-2.5 ml-[20px]   w-full">
+           <div className="h-[100%] md:w-[58%] w-full">
+            <Img
+              src="images/img_image.svg"
+              alt="Image"
+              className="h-full w-full object-contain "
+            />
+           </div>
 
-          <div className="flex w-[38%] flex-col items-start gap-[66px] px-[34px] ml-[100px] md:w-full sm:gap-[33px] sm:px-5">
+          <div className="flex md:w-[52%] flex-col space-y-8 items-start p-4 w-full ">
             <Heading
               size="headingxl"
               as="h1"
@@ -101,8 +103,8 @@ export default function LoginPageColouredPage() {
                         </div>
                       </div>
                       <a
-                        href="/LoginPageColouredPage"
-                        className="mr-[220px] mt-3 self-end md:mr-0"
+                        href="/"
+                        className=" w-full"
                       >
                         <Heading
                           size="headingxs"
@@ -117,7 +119,7 @@ export default function LoginPageColouredPage() {
                         size="md"
                         className="ml-[114px] mt-6 min-w-[110px] self-start rounded- [5px] font-roboto font-bold tracking-[0.64px] md:ml-0"
                       >
-                        <Link to="/Homepagecoloured" className="">
+                        <Link to="/Home" className="">
                           Sign in
                         </Link>
                       </Button>
@@ -161,7 +163,7 @@ export default function LoginPageColouredPage() {
                   <span className="text-black-900">
                     Don't have an account?&nbsp;
                   </span>
-                  <a href="/registerpagecoloured">
+                  <a href="/register">
                     <span className="font-semibold text-black-900">
                       Sign up
                     </span>

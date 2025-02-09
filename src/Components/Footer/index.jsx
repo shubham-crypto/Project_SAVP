@@ -4,11 +4,11 @@ export default function Footer({ ...props }) {
   return (
     <footer
       {...props}
-      className={`${props.className} flex justify-center items-end py-[26px] sm:py-5 bg-blue_gray-800_01`}
+      className={`${props.className} flex justify-center items-end md:py-[26px] py-5 bg-blue_gray-800_01`}
     >
       <div className="container-xs mt-8 flex justify-center md:p-5">
-        <div className="flex w-[94%] items-start justify-between gap-5 md:w-full md:flex-col">
-          <div className="flex w-[24%] flex-col items-start self-center md:w-full">
+        <div className="flex w-[94%] md:w-full flex-col md:flex-row items-start justify-between gap-5 ">
+          <div className="flex md:w-[24%] flex-col items-start self-center w-full">
             <div className="flex rounded-[10px] bg-white-a700 p-2">
               <Img
                 src="images/img_logo_civique.png"
@@ -29,11 +29,11 @@ export default function Footer({ ...props }) {
               Copyright claim
             </Heading>
           </div>
-          <div className="mt-3 flex w-[64%] items-start justify-between gap-6 md:w-full md:flex-col">
-            <div className="flex w-[40%] flex-col items-start gap-[34px] md:w-full">
+          <div className="mt-3 flex md:w-[64%] w-full flex-col md:flex-row items-start justify-between gap-6 ">
+            <div className="flex md:w-[40%] flex-col items-start gap-[34px] w-full">
               <Heading
                 as="h4"
-                className="!text-[24px] capitalize md:!text-[22px]"
+                className="md:!text-[24px] capitalize !text-[22px]"
               >
                 Get in Touch
               </Heading>
@@ -76,7 +76,7 @@ export default function Footer({ ...props }) {
                 </li>
               </ul>
             </div>
-            <ul className="flex w-[50%] flex-col items-start self-center md:w-full">
+            <ul className="flex md:w-[50%] flex-col items-start self-center w-full">
               <li>
                 <a href="#" className="md:!text-[22px]">
                   <Heading as="h4" className="!text-[24px] capitalize">
@@ -120,7 +120,7 @@ export default function Footer({ ...props }) {
                 </a>
               </li>
             </ul>
-            <ul className="flex flex-col items-start w-[40%] md:w-full">
+            <ul className="flex flex-col items-start md:w-[40%] w-full">
               <li>
                 <a href="#" className="md:!text-[22px]">
                   <Heading as="h4" className="!text-[24px] capitalize">

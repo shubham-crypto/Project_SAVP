@@ -1,5 +1,4 @@
 import { Helmet } from "react-helmet";
-
 import { Button, Text, Heading } from "../../components/index.jsx";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
@@ -42,31 +41,31 @@ export default function HomePageColouredPage() {
         <>
             <div className="w-full bg-white-a700">
                 <Header />
-                <div className="flex flex-col gap-44 md:gap-[132px] sm:gap-[88px]">
+                <div className="flex flex-col gap-24 md:gap-32  mt-24">
                     <div>
                         <div className="flex flex-col items-center">
-                            <div className="flex flex-col items-center self-stretch bg-blue_gray-800_cc py-[164px] md:py-5">
-                                <div className="container-xs mb-[164px] flex flex-col items-start md:p-5">
-                                    <Heading size="heading3x1" as="h1" className="capitalize leading-[96px]">
+                            <div className="flex flex-col items-center self-stretch bg-blue_gray-800_cc py-20 md:py-10">
+                                <div className="container-xs mb-20 flex flex-col items-start p-5 md:p-0">
+                                    <Heading size="heading3x1" as="h1" className="capitalize leading-tight text-center">
                                         <>
-                                            join the movement
+                                            Join the movement
                                             <br />
-                                            make your voice heard
+                                            Make your voice heard
                                         </>
                                     </Heading>
-                                    <Text as="p" className="mt-6 leading-[26px]">
+                                    <Text as="p" className="mt-6 leading-relaxed text-center">
                                         <>
                                             Engage with your community, share your ideas, and work towards building <br />a more inclusive,
                                             sustainable future for all.
                                         </>
                                     </Text>
-                                    <Button color="gray_600" shape="square" className="mt-14 min-w-[166px] font-bold">
+                                    <Button color="gray_600" shape="square" className="mt-14 w-full md:max-w-[166px] font-bold">
                                         Learn More
                                     </Button>
                                 </div>
                             </div>
                             <div className="container-xs relative mt-[-106px] md:p-5">
-                                <div className="flex gap-4 md:flex-col">
+                                <div className="flex gap-4 flex-col md:flex-row mt-28 md:mt-0">
                                     <Suspense fallback={<div>Loading feed...</div>}>
                                         {data.map((d, index) => (
                                             <HighlightedProjects {...d} key={"listiconone" + index} className="shadow-xs hover:shadow-xs" />
@@ -81,7 +80,7 @@ export default function HomePageColouredPage() {
                     </div>
                     <HomepagecolouredColumnEight />
                 </div>
-                <Footer className="mt-[138px]" />
+                <Footer className="mt-24" />
             </div>
         </>
     );

@@ -2,7 +2,7 @@ import { Text, Button, TextArea, Heading, Img } from "../../components";
 import React from "react";
 export default function MoreinfopageforaprojectprevColumnheading1() {
   return (
-    <div className="mt-[84px] flex flex-col items-center gap-[50px] px-14 md:px-5">
+    <div className="mt-[84px] flex flex-col items-center gap-[50px] px-14 md:px-5 border-2">
       <Heading
         size="heading2x1"
         as="h2"
@@ -10,95 +10,18 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
       >
         Discussion Forum
       </Heading>
-      <div className="relative ml-1 mr-10 h-[1404px] content-end self-stretch md:mx-0 md:h-auto">
-        {/* <div className="absolute bottom-[9%] right-[5%] m-auto flex flex-col items-start"> */}
-        {/* <Heading as="h3" className="!text-[24px] capitalize md:!text-[22px]">
-                        Quick Links
-                    </Heading>
-                    <Text as="p" className="mt-8">
-                        Latest News
-                    </Text>
-                    <Text as="p" className="mt-[18px]">
-                        Events
-                    </Text>
-                    <Text as="p" className="mt-[18px]">
-                        Departments
-                    </Text> */}
-        {/* </div> */}
-        {/* <div className="absolute bottom-[3%] right-[20%] m-auto flex flex-col items-start"> */}
-        {/* <Heading as="h4" className="! text-[24px] capitalize md:!text-[22px]">
-                        Service & Information
-                    </Heading>
-                    <Text as="p" className="mt-[34px]">
-                        About Carolina
-                    </Text>
-                    <Text as="p" className="mt-[18px]">
-                        COVID-19
-                    </Text>
-                    <Text as="p" className="mt-4">
-                        Health
-                    </Text>
-                    <Text as="p" className="mt-[18px]"> Money & Tax
-                    </Text>
-                    <Text as="p" className="mt-4">
-                        Vote & Election
-                    </Text> */}
-        {/* </div> */}
-        {/* <div className="absolute bottom-[6%] left-0 right-0 m-auto flex w-[28%] flex-col items-start"> */}
-        {/* <Heading as="h5" className="!text-[24px] capitalize md:!text-[22px]">
-            Get in Touch
-          </Heading>
-          <div className="mt-[34px] flex gap-4 self-stretch">
-            <Img
-              src="images/img_linkedin.svg"
-              alt="Linkedin"
-              className="h-[24px] w-[24px]"
-            />{" "}
-            <Text as="p">address</Text>
-          </div>
-          <div className="mt-[50px] flex gap-4 self-stretch">
-            <Img
-              src="images/img_lock.svg"
-              alt="Lock"
-              className="h-[24px] w-[24px]"
-            />{" "}
-            <Text as="p">email</Text>
-          </div>
-          <div className="mt-6 flex gap-4 self-stretch">
-            <Img
-              src="images/img_call.svg"
-              alt="Call"
-              className="h-[24px] w-[24px]"
-            />
-            <Text as="p">tel</Text>
-          </div>{" "} */}
-        {/* </div> */}
-        {/* <div className="absolute bottom-px left-0 right-0 mx-[30px] my-auto flex flex-1 flex-col items-start gap-[92px] md:mx-0 md:gap-[69px] sm:gap-[46px] "> */}
-        {/* <Text as="p" className="w-[24%] leading-[26px] md:w-full">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
-            magna enim id integer congue eu. Tempor urna augue sed
-          </Text>
-          <Heading size="headingxs" as="h6" className="text-[16px] !font-bold">
-            Copyright claim
-          </Heading> */}
-        {/* </div> */}
-        {/* <div className="mb-[248px] ml-[30px] flex rounded-[10px] bg-white-a700 p-2 md:m1-0">
-          <Img
-            src="images/img_logo_civique.png"
-            alt="Logocivique"
-            className="h-[48px] w-[48px] object-cover"
-          />{" "}
-        </div> */}
-        <div className="absolute bottom-0 left-0 right-0 top-0 m-auto flex h-max flex-1 flex-col items-start gap-4 rounded-[5px] border border-dashed border-deep_purple-q200 p-4">
-          <div className="flex w-[86%] justify-center bg-white-a700 p-2 md:w-full">
+      <div className="relative ml-1 md:mr-10 md:h-[1404px] content-end self-stretch mx-0 h-auto border-2 border-red-300">
+        
+        <div className="absolute bottom-0 left-0 right-0 top-0 m-auto flex  flex-1 flex-col border-2 border-red-300 items-start gap-4 rounded-[5px] border border-dashed border-deep_purple-q200 p-4">
+          <div className="flex md:w-[86%] justify-center bg-white-a700 p-2 w-full border-2 border-red-300">
             <div className="mt-3 flex w-full flex-col gap-5">
-              <div className="flex items-center md:flex-col">
+              <div className="flex items-center flex-col md:flex-row">
                 <div className="flex flex-1 flex-col items-start md:self-stretch">
-                  <div className="flex items-center self-stretch md:flex-col">
+                  <div className="flex items-center self-stretch flex-col md:flex-row">
                     <Img
                       src="images/img_avatar_goes_here.png"
                       alt="Avatargoes"
-                      className="h-[24px] rounded-[12px] object-cover md:w-full"
+                      className="h-[24px] rounded-[12px] object-cover w-full"
                     />
                     <div className="flex flex-1 items-center justify-center px-2.5 md:self-stretch">
                       <Heading
@@ -141,7 +64,7 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                   <Heading
                     size="headings"
                     as="h6"
-                    className="w-[90%] !font-inter leading-6 !text-blue_gray-600 md:w-full"
+                    className="md:w-[90%] !font-inter leading-6 !text-blue_gray-600 w-full"
                   />
                   <span className="font-normal text-blue_gray-600">
                     Dummy comment -&nbsp;
@@ -154,12 +77,12 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                   </span>
                   {/* </Heading> */}
                 </div>
-                <div className="flex w-[20%] justify-center self-end rounded-1g border-[0.5px] border-solid border-indigo-50 bg-white-a700 md:w-full md:self-auto">
+                <div className="flex md:w-[20%] justify-center md:self-end rounded-1g border-[0.5px] border-solid border-indigo-50 bg-white-a700 w-full self-auto">
                   <div className="w-full">
                     <Img
                       src="images/img_screenshot_2022_06_28.png"
                       alt="Screenshot2022"
-                      className="h-[88px] w-full rounded-1g object-cover md:h-auto"
+                      className="md:h-[88px] w-full rounded-1g object-cover h-auto"
                     />
                     <div className="relative mt-[-14px] flex justify-center gap-1.5 rounded-b1-1g rounded-br-1g bg-indigo-60">
                       <img
@@ -238,15 +161,15 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
               </div>
             </div>
           </div>
-          <div className="flex w-[84%] flex-col gap-3 border-b border-solid border-indigo-50 bg-white-a700 py-2 md:w-full">
+          <div className="flex md:w-[84%] flex-col gap-3 border-b border-solid border-indigo-50 bg-white-a700 py-2 w-full border-2 border-red-300">
             <div className="flex flex-col gap-3 rounded-1g bg-gray-100_01 p-2">
-              <div className="flex items-center justify-center sm:flex-col">
+              <div className="flex items-center justify-center flex-col md:flex-row">
                 <Img
                   src="images/img_avatar_goes_here.png"
                   alt="Avatargoes"
-                  className="h-[24px] rounded-[12px] object-cover sm:w-full"
+                  className="h-[24px] rounded-[12px] object-cover w-full"
                 />
-                <div className="flex flex-1 items-center self-start px-2.5 sm: self-stretch">
+                <div className="flex flex-1 items-center self-start px-2.5 ">
                   <Heading
                     size="headingxs"
                     as="p"
@@ -304,7 +227,7 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                       <Img
                         src="images/img_screenshot_2022_06_28_88x214.png"
                         alt="Screenshot2022"
-                        className="h-[88px] w-full rounded-lg object-cover md:h-auto"
+                        className="md:h-[88px] w-full rounded-lg object-cover h-auto"
                       />
                       <div className="relative mt-[-14px] flex justify-center gap-1.5 rounded-bl-1g rounded-br-lg bg-indigo-600 p-1">
                         <Img

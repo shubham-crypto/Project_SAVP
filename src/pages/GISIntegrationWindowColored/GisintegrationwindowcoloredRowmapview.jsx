@@ -6,8 +6,8 @@ import BasicMap from "../../components/Leaflet/basic";
 export default function GisintegrationwindowcoloredRowmapview() {
   return (
     <div>
-      <div className="flex flex-col items-center justify-center bg-blue_gray-800_cc py-36 md:py-5">
-        <div className="container-xs mt-5 flex flex-col items-start gap-6 md:p-5">
+      <div className="flex flex-col items-center justify-center bg-blue_gray-800_cc mt-24 md:py-36 :py-5">
+        <div className="container-xs mt-5 flex flex-col items-start gap-6 p-5 md:p-0">
           <Heading size="heading3x1" as="h1" className="capitalize">
             Map View
           </Heading>

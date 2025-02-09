@@ -107,7 +107,7 @@ export default function BasicMap() {
       <div className="row my-4">
         <div className="col-d flex justify-center">
           <button
-            className="bg-blue-500 hover:bg-blue-700 flex justify-center text-white font-bold py-2 px-4 rounded"
+            className="bg-yellow-500 hover:bg-yellow-400 flex justify-center text-white font-bold py-2 px-4 rounded"
             onClick={showMyLocation}
           >
             Locate Me
