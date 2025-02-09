@@ -16,7 +16,7 @@ export default function UserProfile1({
   return (
     <div
       {...props}
-      className={`${props.className} flex flex-col items-start w-[58%] md:w-full gap-2.5 px-18 py-2 sm:px-5 bg-white-a788 rounded-[28px]`}
+      className={`${props.className} flex flex-col items-start md:w-[58%] w-full gap-2.5 px-18 py-2 sm:px-5 bg-white-a788 rounded-[28px]`}
     >
       <div className="h-[30px] flex gap-2 self-stretch">
         {" "}

@@ -2,18 +2,18 @@ import { Text, Button, TextArea, Heading, Img } from "../../components";
 import React from "react";
 export default function MoreinfopageforaprojectprevColumnheading1() {
   return (
-    <div className="mt-[84px] flex flex-col items-center gap-[50px] px-14 md:px-5 border-2">
+    <div className="mt-[84px] flex flex-col items-center gap-[50px] px-14 md:px-5  ">
       <Heading
-        size="heading2x1"
+        size="headingxl"
         as="h2"
-        className="bg-gradient1 px-[34px] py-3.5 !text-gray-900_03 sm:px-5"
+        className="bg-gradient-to-r from-yellow-400 to-yellow-200 md:px-[34px] py-3.5 !text-gray-900_03 px-5"
       >
         Discussion Forum
       </Heading>
-      <div className="relative ml-1 md:mr-10 md:h-[1404px] content-end self-stretch mx-0 h-auto border-2 border-red-300">
+      <div className=" ml-1 md:mr-10 md:h-[1404px]  mx-0 h-auto  ">
         
-        <div className="absolute bottom-0 left-0 right-0 top-0 m-auto flex  flex-1 flex-col border-2 border-red-300 items-start gap-4 rounded-[5px] border border-dashed border-deep_purple-q200 p-4">
-          <div className="flex md:w-[86%] justify-center bg-white-a700 p-2 w-full border-2 border-red-300">
+        <div className="m-auto flex  flex-1 flex-col  items-start gap-4 rounded-[5px] border border-dashed border-deep_purple-q200 p-4">
+          <div className="flex  justify-center bg-white-a700 p-2 w-full ">
             <div className="mt-3 flex w-full flex-col gap-5">
               <div className="flex items-center flex-col md:flex-row">
                 <div className="flex flex-1 flex-col items-start md:self-stretch">
@@ -161,9 +161,9 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
               </div>
             </div>
           </div>
-          <div className="flex md:w-[84%] flex-col gap-3 border-b border-solid border-indigo-50 bg-white-a700 py-2 w-full border-2 border-red-300">
-            <div className="flex flex-col gap-3 rounded-1g bg-gray-100_01 p-2">
-              <div className="flex items-center justify-center flex-col md:flex-row">
+          <div className="flex  flex-col gap-3 border-b border-solid border-indigo-50 bg-white-a700 py-2 w-full ">
+            <div className="flex flex-col gap-3 rounded-1g bg-gray-100_01 p-2 ">
+              <div className="flex items-center justify-center flex-col md:flex-row ">
                 <Img
                   src="images/img_avatar_goes_here.png"
                   alt="Avatargoes"
@@ -199,7 +199,7 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                 </div>
               </div>
               <div>
-                <div className="flex items-center md:flex-col">
+                <div className="flex items-center flex-col  md:flex-row ">
                   <div className="flex flex-1 flex-col items-start gap-0.5 md: self-stretch">
                     <Heading
                       as="h5"
@@ -210,7 +210,7 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                     <Heading
                       size="headings"
                       as="h6"
-                      className="w-[90%] !font-inter leading-6 !text-blue_gray-600 md:w-full"
+                      className="md:w-[90%] !font-inter leading-6 !text-blue_gray-600 w-full"
                     />
                     <span className="font-normal text-blue_gray-600">
                       Dummy comment -&nbsp;
@@ -222,7 +222,7 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                       actual teachings...
                     </span>
                   </div>
-                  <div className="flex w-[20%] justify-center rounded-1g border-[0.5px] border-solid border-indigo-50 bg-white-a700 md:w-full ">
+                  <div className="flex md:w-[20%] justify-center rounded-1g border-[0.5px] border-solid border-indigo-50 bg-white-a700 w-full ">
                     <div className="w-full">
                       <Img
                         src="images/img_screenshot_2022_06_28_88x214.png"
@@ -244,7 +244,7 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                 </div>
               </div>
             </div>
-            <div className="ml-[30px] mr-2.5 flex md:mx-0 md:flex-col">
+            <div className="ml-[30px] mr-2.5 flex md:mx-0 md:flex-col ">
               <div className="flex flex-1 gap-[30px] md:self-stretch">
                 <div className="flex gap-2">
                   T
@@ -315,14 +315,14 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
               </div>
             </div>
           </div>
-          <div className="mb-14 flex w-[84%] flex-col gap-[22px] bg-white-a700 md:w-full">
+          <div className="mb-14 flex  flex-col gap-[22px] bg-white-a700 w-full ">
             <div className="flex flex-col gap-5 bg-white-a700 p-2">
               <div className="mt-3 flex flex-col gap-3">
-                <div className="flex items-center justify-center sm:flex-col">
+                <div className="flex items-center justify-center flex-col md:flex-row">
                   <Img
                     src="images/img_avatar_goes_here.png"
                     alt="Avatargoes"
-                    className="h-[24px] rounded-[12px] object-cover sm:w-full"
+                    className="h-[24px] rounded-[12px] object-cover w-full"
                   />
                   <div className="flex flex-1 items-center self-start px-2.5 sm:self-stretch">
                     <Heading
@@ -354,7 +354,7 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                   </div>
                 </div>
                 <div className="justify-content-end">
-                  <div className="flex items-center md:flex-col">
+                  <div className="flex items-center flex-col md:flex-row">
                     <div className="flex flex-1 flex-col items-start gap-0.5 md:self-stretch">
                       <Heading
                         as="h5"
@@ -365,7 +365,7 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                       <Heading
                         size="headings"
                         as="h6"
-                        className="w-[90%] !font-inter leading-6 !text-blue_gray-600 md:w-full"
+                        className="md:w-[90%] !font-inter leading-6 !text-blue_gray-600 w-full"
                       />
                       <span className="font-normal text-blue_gray-600">
                         Dummy comment -&nbsp;
@@ -377,7 +377,7 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                         expound the actual teachings...
                       </span>
                     </div>
-                    <div className="flex w-[20%] justify-center rounded-1g border-[0.5px] border-solid border-indigo-50 bg-white-a700 mid:w-full">
+                    <div className="flex md:w-[20%] justify-center rounded-1g border-[0.5px] border-solid border-indigo-50 bg-white-a700 w-full">
                       <div className="w-full">
                         <Img
                           src="images/img_screenshot_2022_06_28_88x214.png"
@@ -399,7 +399,7 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                   </div>
                 </div>
               </div>
-              <div className="ml-5 flex items-center justify-center md:ml-0">
+              <div className="md:ml-5 flex items-center justify-center ml-0">
                 <div className="flex flex-1 gap-2">
                   <Button
                     size="xs"
@@ -447,12 +447,12 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
               </div>
             </div>
             <div>
-              <div className="ml-2.5 flex flex-col items-start md:ml-0">
-                <div className="flex items-center self-stretch md:flex-col">
+              <div className="md:ml-2.5 flex flex-col items-start ml-0 ">
+                <div className="flex items-center self-stretch flex-col md:flex-row">
                   <Img
                     src="images/img_avatar_goes_here.png"
                     alt="Avatargoes"
-                    className="h-[24px] rounded-[12px] object-cover md:w-full"
+                    className="h-[24px] rounded-[12px] object-cover w-full"
                   />
                   <div className="flex flex-1 items-center justify-center px-2.5 md:self-stretch">
                     <Heading
@@ -462,12 +462,7 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                     >
                       Michael Busch
                     </Heading>
-                    <div className="flex flex-1 px-9 sm: px-5">
-                      {/* <Img
-                        src="images/img_mobile.svg"
-                        alt="Mobile"
-                        className="h-[16px]"
-                      /> */}
+                    <div className="flex flex-1 md:px-9 px-5">
                       <Text
                         size="textxs"
                         as="p"
@@ -482,7 +477,7 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                 <Heading
                   size="headings"
                   as="h6"
-                  className="ml-[42px] mt-2 w-full !font-inter leading-6 !text-blue_gray-900 md:ml-0"
+                  className="md:ml-[42px] mt-2 w-full !font-inter leading-6 !text-blue_gray-900 ml-0"
                 />
                 <span className="font-normal text-blue_gray-900">
                   Dummy comment -&nbsp;
@@ -497,16 +492,16 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                 <Text
                   size="textx1"
                   as="p"
-                  className="ml-[30px] mt-9 flex h-[24px] w-[24px] items-center justify-center rounded-[12px] bg-gray-100 text-center !font-slackicons !text-blue_gray-600 md:ml-0"
+                  className="md:ml-[30px] mt-9 flex h-[24px] w-[24px] items-center justify-center rounded-[12px] bg-gray-100 text-center !font-slackicons !text-blue_gray-600 ml-0"
                 >
                 </Text>
               </div>
-              <div className="ml-2.5 flex flex-col items-start md:ml-0">
-                <div className="flex items-center self-stretch md:flex-col">
+              <div className="md:ml-2.5 flex flex-col items-start ml-0">
+                <div className="flex items-center self-stretch flex-col md:flex-row">
                   <Img
                     src="images/img_avatar_goes_here.png"
                     alt="Avatargoes"
-                    className="h-[24px] rounded-[12px] object-cover md:w-full"
+                    className="h-[24px] rounded-[12px] object-cover w-full"
                   />
                   <div className="flex flex-1 items-center justify-center px-2.5 md:self-stretch">
                     <Heading
@@ -516,7 +511,7 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                     >
                       Michael Busch
                     </Heading>
-                    <div className="flex flex-1 px-9 sm: px-5">
+                    <div className="flex flex-1 md:px-9 px-5">
                       {/* <Img
                         src="images/img_mobile.svg"
                         alt="Mobile"
@@ -550,15 +545,15 @@ export default function MoreinfopageforaprojectprevColumnheading1() {
                 <Text
                   size="textx1"
                   as="p"
-                  className="ml-[30px] mt-9 flex h-[24px] w-[24px] items-center justify-center rounded-[12px] bg-gray-100 text-center !font-slackicons !text-blue_gray-600 md:ml-0"
+                  className="md:ml-[30px] mt-9 flex h-[24px] w-[24px] items-center justify-center rounded-[12px] bg-gray-100 text-center !font-slackicons !text-blue_gray-600 ml-0"
                 >
                 </Text>
               </div>
             </div>
 
-            <div className="bg-gray-100_01 p-3">
+            <div className="bg-gray-100_01 p-3 ">
               <div className="flex flex-col gap-3.5">
-                <div className="mx-1 flex items-center gap-2.5 md:mx-0">
+                <div className="md:mx-1 flex items-center gap-2.5 mx-0">
                   <Img
                     src="images/img_avatar_goes_here_24x40.png"
                     alt="Avatargoes"

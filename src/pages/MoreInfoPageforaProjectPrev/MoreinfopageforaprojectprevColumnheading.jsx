@@ -6,13 +6,13 @@ export default function MoreinfopageforaprojectprevColumnheading() {
   return (
     <div className="mt-[120px] flex flex-col items-center gap-[50px] md:px-14 px-5">
       <Heading
-        size="heading2xl"
+        size="headingxl"
         as="h2"
-        className="bg-gradient1 md:px-[34px] pb-2 md:pt-[22px] !text-gray-900_03 px-5 pt-5"
+        className="bg-gradient-to-r from-yellow-400 to-yellow-200  md:px-[34px]  py-4 !text-gray-900_03 px-5 "
       >
         Vote on community ideas
       </Heading>
-      <div className="mr-9 flex items-center self-stretch md:mr-0 md:flex-col">
+      <div className="mr-9 flex items-center self-stretch md:mr-0 flex-col md:flex-row">
         <div className="flex flex-1 flex-col items-center p-1 md:self-stretch">
           <Img
             src="images/img_vector.svg"

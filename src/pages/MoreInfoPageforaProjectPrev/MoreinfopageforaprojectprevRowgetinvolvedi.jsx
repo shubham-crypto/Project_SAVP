@@ -4,7 +4,7 @@ import React from "react";
 export default function MoreinfopageforaprojectprevRowgetinvolvedi() {
   return (
     <div className="mt-24">
-      <div className="flex flex-col items-start justify-center bg-gradient1 py-[42px] pl-16 pr-14 md:p-5">
+      <div className="flex flex-col items-start justify-center bg-gradient-to-r from-yellow-400 to-yellow-200 p-32">
         <Heading
           size="headings"
           as="h2"
@@ -24,7 +24,7 @@ export default function MoreinfopageforaprojectprevRowgetinvolvedi() {
           </>
         </Heading>
         <Button
-          color="blue_A700"
+          color="deep_orange_A700"
           size="md"
           rightIcon={
             <Img
@@ -33,7 +33,7 @@ export default function MoreinfopageforaprojectprevRowgetinvolvedi() {
               className="h-[16px] w-[16px]"
             />
           }
-          className="mt-7 min-w-[188px] gap-2 rounded-[5px] font-roboto font-bold"
+          className="mt-7  min-w-[188px] gap-2 rounded-[5px] font-roboto font-bold"
         >
           Submit a Proposal
         </Button>

@@ -44,7 +44,7 @@ export default function HomePageColouredPage() {
                 <div className="flex flex-col gap-24 md:gap-32  mt-24">
                     <div>
                         <div className="flex flex-col items-center">
-                            <div className="flex flex-col items-center self-stretch bg-blue_gray-800_cc py-20 md:py-10">
+                            <div className="flex flex-col items-center self-stretch bg-blue_gray-800_cc md:py-20 py-10">
                                 <div className="container-xs mb-20 flex flex-col items-start p-5 md:p-0">
                                     <Heading size="heading3x1" as="h1" className="capitalize leading-tight text-center">
                                         <>
