@@ -10,8 +10,8 @@ import AboutUsColored from "./pages/AboutUsColored";
 import ContactUs from "./pages/ContactUs";
 import Survey from "./pages/Survey";
 import UserInfo from "./pages/UserInfo";
-import ProtectedRoute from "./components/ProtectedRoutes/ProtectedRoute";
 import MoreInfoPageForAProjectPrevFwcards from "./components/MoreInfoPageForAProjectPrevFwcards/MoreInfoPageForAProjectPrev";
+import ProtectedRoute from "./components/ProtectedRoutes/ProtectedRoute";
 
 
 const ProjectRoutes = () => {
